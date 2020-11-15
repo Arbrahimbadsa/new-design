@@ -131,7 +131,7 @@ body {
     display: grid;
     grid-template-columns: 30px calc(100% - 30px);
     border: 2.5px solid rgba(128, 128, 128, 0.842);
-    padding: 4.5px;
+    padding: 8px;
     margin: 10px 0;
 }
 
@@ -148,6 +148,7 @@ body {
 
 .search {
     border: none;
+    background: transparent;
 }
 
 .students-list {
