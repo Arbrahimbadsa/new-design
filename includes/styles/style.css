@@ -1,0 +1,180 @@
+/* Default Setup */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* Notification
+.notification-div {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    transform: translateY(calc(100vh - 10%));
+    border-radius: 10px 10px 0 0;
+    padding: 15px 10px;
+    box-shadow: 0 -3px 1.5px rgba(0,0,0,0.1);
+}
+
+.notification-header {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-gap: 10px;
+}
+
+.notification-header-div {
+    padding: 10px;
+}
+
+.notification-header-div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification-line {
+    display: block;
+    height: 4.5px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+}
+
+.notification-line:nth-child(2) {
+    width: 20px;
+    margin-top: 5px;
+} */
+
+
+/* header */
+
+.header {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+}
+
+.logo {
+    height: 60px;
+    width: 68px;
+}
+
+.nav-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.header-meta {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+/* set up page */
+
+.first-page {
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('/assets//bg.png');
+    background-position: 100px 0;
+    background-size: cover;
+}
+
+.welcome-message {
+    font-size: 16px;
+}
+
+.logo-and-name {
+    height: auto;
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-holder {
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.text {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.inputs {
+    margin: 15px 0;
+}
+
+.portal-input-text {
+    font-size: 13px;
+}
+
+.portal-input {
+    display: grid;
+    grid-template-columns: 30px calc(100% - 30px);
+    border: 2.5px solid rgba(128, 128, 128, 0.842);
+    padding: 4.5px;
+    margin: 10px 0;
+}
+
+.input {
+    margin: 15px 0;
+}
+
+.search-logo {
+    display: flex;
+    justify-content: center;
+    border-right: none;
+    margin-right: 8px;
+}
+
+.search {
+    border: none;
+}
+
+.students-list {
+    height: 180px;
+    width: 100%;
+    border: 2.5px solid grey;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.students-list-text {
+    width: 100%;
+    text-align: center;
+    color: grey;
+}
+
+.next-div {
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.431);
+    border-radius: 10px 10px 0 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
