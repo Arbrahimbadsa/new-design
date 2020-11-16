@@ -120,18 +120,21 @@ body {
     padding: 10px 20px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .video:nth-child(2) {
     background: url('/assets/image-1.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .video:nth-child(3) {
     background: url('/assets/image-2.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .news-icon {
@@ -178,17 +181,19 @@ body {
     width: 100%;
     background: url('/assets/image-3.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: cover;
     margin: 10px 0;
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 25px;
+    background-repeat: no-repeat;
 }
 
 .notification-bar {
     position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
 }
@@ -201,6 +206,7 @@ body {
     justify-content: space-around;
     align-items: center;
     border-radius: 10px 10px 0 0;
+    box-shadow: 0 -5px 5px rgba(0,0,0,0.1);
 }
 
 
